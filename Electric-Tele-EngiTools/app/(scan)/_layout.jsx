@@ -3,14 +3,16 @@ import React from 'react'
 import { Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar';
 
-const SetLayout = () => {
+const ScanLayout = () => {
   return (
     <>
     <Stack>
+    < Stack.Screen name="index" options = {{headerShown: false}} />
 
-    < Stack.Screen name="theme" options = {{headerShown: false}} />
+    < Stack.Screen name="overlay" options = {{headerShown: false}} />
 
-    < Stack.Screen name="vibrations" options = {{headerShown: false}} />
+   
+
 
     </Stack>
     
@@ -19,4 +21,4 @@ const SetLayout = () => {
   )
 }
 
-export default SetLayout
+export default ScanLayout

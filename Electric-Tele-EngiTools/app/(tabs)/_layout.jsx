@@ -99,6 +99,23 @@ const Tabslayout = () => {
           }}
         />
 
+<Tabs.Screen
+          name='history'
+          options={{
+            title: "History",
+            headerShown: false,
+            tabBarIcon: ({ color, focused }) => (
+              <TabIcon
+                icon={icons.menu}
+                color={color}
+                name="History"
+                focused={focused}
+                className="font-psemibold"
+              />
+            )
+          }}
+        />
+
       </Tabs>
 
     </>

@@ -74,7 +74,7 @@ export default function Index() {
           {/* Continue Button */}
           <CustomButton
             title="Continue"
-            handlePress={() => router.push("/home")}
+            handlePress={() => router.push("/history")}
             containerStyles="mt-7 w-full"
           />
         </View>
